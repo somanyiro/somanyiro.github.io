@@ -112,3 +112,8 @@ figcaption{
 .text p{
     width: 50%;
 }
+
+h2{
+    text-align: center;
+    margin-top: 10px;
+}
