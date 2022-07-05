@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+body{
+    background-image: url("resources/texture_08.png");
+    background-size: 300px;
+}
+
+header{
+    background-color: black;
+    position: fixed;
+    width: 100vw;
+}
+
+header nav a{
+    color: white;
+    text-decoration: none;
+    line-height: 7vh;
+    margin-left: 1vw;
+}
+
+aside{
+    position: fixed;
+    background-color: black;
+    left: 1vw;
+    top: 8vh;
+}
+
+aside *{
+    text-decoration: none;
+    color: white;
+    list-style: none;
+}
+
+aside nav ul li{
+    margin: 5px;
+}
+
+.beginning{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex: 0 0 100vw;
+    background-image: url("resources/forest.png");
+    background-size:cover;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    color: white;
+    padding: 10px 0 10px;
+}
+
+.beginning img{
+    height: 250px;
+}
+
+.beginning h1{
+    margin: 10px 0 10px;
+}
+
+main{
+    padding-top: 7vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+article{
+    display: flex;
+    margin: 10px;
+}
+
+article figure{
+    width: 50%;
+    flex: 0 0 50%;
+}
+
+article figure img{
+    display: block;
+    width: 100%;
+}
+
+article figure video{
+    display: block;
+    width: 100%;
+}
+
+figcaption{
+    text-align: center;
+    color: gray;
+}
+
+.content{
+    width: 80vw;
+    background-color: #111111;
+}
+
+.text{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text p{
+    width: 50%;
+}
