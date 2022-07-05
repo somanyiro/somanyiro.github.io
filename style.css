@@ -117,3 +117,9 @@ h2{
     text-align: center;
     margin-top: 10px;
 }
+
+.cv article{
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+}
