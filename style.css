@@ -123,3 +123,14 @@ h2{
     margin: 10px;
     justify-content: center;
 }
+
+.aboutme p{
+    text-align: center;
+    width: 50%;
+}
+
+#aboutme_text{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
