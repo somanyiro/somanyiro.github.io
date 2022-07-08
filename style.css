@@ -134,3 +134,22 @@ h2{
     justify-content: center;
     margin: 10px;
 }
+
+.contact nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact nav a{
+    display: block;
+    width: 5%;
+}
+
+.contact nav a img{
+    width: 100%;
+}
+
+.contact p{
+    text-align: center;
+    margin: 10px;
+}
