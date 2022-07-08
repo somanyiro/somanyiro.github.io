@@ -47,7 +47,8 @@ aside nav ul li{
     display: flex;
     align-content: center;
     justify-content: center;
-    flex: 0 0 100vw;
+    /*flex: 0 0 100vw;*/
+    width: 100%;
     background-image: url("resources/forest.png");
     background-size:cover;
     flex-direction: column;
