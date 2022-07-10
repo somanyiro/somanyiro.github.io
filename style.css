@@ -165,3 +165,7 @@ h2{
     text-align: center;
     margin: 10px;
 }
+
+#tags{
+    color: transparent;
+}
