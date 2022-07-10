@@ -49,7 +49,7 @@ aside nav ul li{
     justify-content: center;
     /*flex: 0 0 100vw;*/
     width: 100%;
-    background-image: url("resources/forest.png");
+    background-image: url("resources/gizmo.png");
     background-size:cover;
     flex-direction: column;
     flex-wrap: wrap;
