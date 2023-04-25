@@ -165,3 +165,17 @@ h2{
     text-align: center;
     margin: 10px;
 }
+
+.skills nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.skills nav a{
+    display: block;
+    width: 5%;
+}
+
+.skills nav a img{
+    width: 100%;
+}
