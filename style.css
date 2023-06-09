@@ -98,6 +98,10 @@ figcaption{
     color: gray;
 }
 
+a{
+    text-decoration: none;
+}
+
 .content{
     width: 80vw;
     background-color: #111111;
