@@ -1,11 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
-:root{
-    --article-bg-color: #000000;
-    --article-hl-color: #444444;
-    --navigation-color: #4e2aa8;
-}
 
 *{
     margin: 0;
@@ -15,7 +10,9 @@
 
     --article-bg-color: #000000;
     --article-hl-color: #444444;
+    --header-bg-color: #000000;
     --navigation-color: #4e2aa8;
+    --text-color: #ffffff;
 }
 
 body{
@@ -24,13 +21,13 @@ body{
 }
 
 header{
-    background-color: black;
+    background-color: var(--header-bg-color);
     position: fixed;
     width: 100vw;
 }
 
 header nav a{
-    color: white;
+    color: var(--text-color);
     text-decoration: none;
     line-height: 7vh;
     margin-left: 1vw;
@@ -38,14 +35,14 @@ header nav a{
 
 aside{
     position: fixed;
-    background-color: black;
+    background-color: var(--header-bg-color);
     left: 1vw;
     top: 8vh;
 }
 
 aside *{
     text-decoration: none;
-    color: white;
+    color: var(--text-color);
     list-style: none;
 }
 
@@ -64,7 +61,7 @@ aside nav ul li{
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    color: white;
+    color: var(--text-color);
     padding: 10px 0 10px;
 }
 
@@ -114,7 +111,7 @@ a{
 
 .content{
     width: 80vw;
-    background-color: #111111;
+    background-color: var(--article-bg-color);
     display: flex;
     flex-direction: column;
     gap: 50px;
