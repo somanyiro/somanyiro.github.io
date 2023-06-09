@@ -1,6 +1,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
+:root{
+    --article-bg-color: #000000;
+    --article-hl-color: #444444;
+    --navigation-color: #4e2aa8;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -73,6 +79,10 @@ main{
     flex-wrap: wrap;
 }
 
+.portfolio article:hover{
+    background-color: gray;
+}
+
 article{
     display: flex;
     margin: 10px;
@@ -100,6 +110,7 @@ figcaption{
 
 a{
     text-decoration: none;
+    
 }
 
 .content{
