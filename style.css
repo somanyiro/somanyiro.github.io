@@ -79,7 +79,7 @@ main{
     flex-wrap: wrap;
 }
 
-.portfolio article:hover{
+.portfolio article:hover .text{
     background-color: gray;
 }
 
