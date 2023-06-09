@@ -12,6 +12,10 @@
     padding: 0;
     font-family: 'Montserrat', sans-serif;
     color: white;
+
+    --article-bg-color: #000000;
+    --article-hl-color: #444444;
+    --navigation-color: #4e2aa8;
 }
 
 body{
@@ -80,7 +84,7 @@ main{
 }
 
 .portfolio article:hover .text{
-    background-color: gray;
+    background-color: var(--navigation-color);
 }
 
 article{
@@ -101,11 +105,6 @@ article figure img{
 article figure video{
     display: block;
     width: 100%;
-}
-
-figcaption{
-    text-align: center;
-    color: gray;
 }
 
 a{
