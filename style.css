@@ -17,6 +17,7 @@ header{
     background-color: black;
     position: fixed;
     width: 100vw;
+    z-index: 1;
 }
 
 header nav a{
@@ -31,6 +32,8 @@ aside{
     background-color: black;
     left: 1vw;
     top: 8vh;
+    z-index: 1;
+    border-radius: 10px;
 }
 
 aside *{
@@ -43,27 +46,43 @@ aside nav ul li{
     margin: 5px;
 }
 
+h1{
+    font-size: 30px;
+}
+
 .beginning{
     display: flex;
     align-content: center;
-    justify-content: center;
-    /*flex: 0 0 100vw;*/
+    justify-content: space-evenly;
     width: 100%;
-    background-image: url("resources/gizmo.png");
+    background-image: linear-gradient(to right, #7D84FF, #FF7DF8);
     background-size:cover;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
     color: white;
-    padding: 10px 0 10px;
+    clip-path: polygon(
+        0 0,
+        100% 0,
+        100% 100%,
+        0 calc(100% - 5vw)
+    );
+    margin-bottom: -5vw;
 }
 
 .beginning img{
-    height: 250px;
+    height: 600px;
+    transform: scaleX(-1);
+    align-self: flex-end;
+    margin-top: 10px;
 }
 
 .beginning h1{
-    margin: 10px 0 10px;
+    margin: 50px 0 10px 0;
+}
+
+.aboutme{
+    align-self: center;
+    background-color: #5555559d;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 main{
@@ -104,6 +123,7 @@ figcaption{
     display: flex;
     flex-direction: column;
     gap: 50px;
+    padding-top: 5vw;
 }
 
 .text{
@@ -130,14 +150,15 @@ h2{
 
 .aboutme p{
     text-align: center;
-    width: 50%;
+    
 }
 
-#aboutme_text{
+#aboutme{
     display: flex;
     justify-content: center;
-    margin: 10px;
+    width: 30%;
 }
+
 
 #bio_text{
     display: flex;
