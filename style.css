@@ -63,13 +63,14 @@ h1{
         100% 100%,
         0 calc(100% - 5vw)
     );
+    margin-bottom: -5vw;
 }
 
 .beginning img{
-    height: 500px;
+    height: 600px;
     transform: scaleX(-1);
     align-self: flex-end;
-    margin-top: 50px;
+    margin-top: 0px;
 }
 
 .beginning h1{
@@ -78,7 +79,7 @@ h1{
 
 .aboutme{
     align-self: center;
-    background-color: #8a8a8a9d;
+    background-color: #5555559d;
     border-radius: 10px;
     padding: 10px;
 }
@@ -121,6 +122,7 @@ figcaption{
     display: flex;
     flex-direction: column;
     gap: 50px;
+    padding-top: 5vw;
 }
 
 .text{
