@@ -49,13 +49,20 @@ aside nav ul li{
     justify-content: center;
     /*flex: 0 0 100vw;*/
     width: 100%;
-    background-image: url("resources/gizmo.png");
+    /*background-image: url("resources/gizmo.png");*/
+    background-image: linear-gradient(to right, #7D84FF, #FF7DF8);
     background-size:cover;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     color: white;
     padding: 10px 0 10px;
+    clip-path: polygon(
+        0 0,
+        100% 0,
+        100% 100%,
+        0 calc(100% - 5vw)
+    );
 }
 
 .beginning img{
