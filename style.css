@@ -33,6 +33,7 @@ aside{
     left: 1vw;
     top: 8vh;
     z-index: 1;
+    border-radius: 10px;
 }
 
 aside *{
@@ -70,7 +71,7 @@ h1{
     height: 600px;
     transform: scaleX(-1);
     align-self: flex-end;
-    margin-top: 0px;
+    margin-top: 10px;
 }
 
 .beginning h1{
