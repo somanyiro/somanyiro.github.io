@@ -53,7 +53,7 @@ h1{
 .beginning{
     display: flex;
     align-content: center;
-    justify-content: space-evenly;
+    
     width: 100%;
     /* background-image: url("resources/gizmo.png"); */
     background-image: linear-gradient(to right, #7D84FF, #FF7DF8);
@@ -205,4 +205,17 @@ h2{
 
 .skills nav a img{
     width: 100%;
+}
+
+@media screen and (min-width: 1770px) {
+    .beginning {
+        justify-content: space-evenly;
+    }
+}
+
+@media screen and (max-width: 1770px) {
+    .beginning {
+        justify-content: center;
+        gap: 20px;
+    }
 }
