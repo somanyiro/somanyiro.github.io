@@ -55,7 +55,7 @@ h1{
     align-content: center;
     justify-content: space-evenly;
     width: 100%;
-    background-image: url("resources/gizmo.png");
+    /* background-image: url("resources/gizmo.png"); */
     background-image: linear-gradient(to right, #7D84FF, #FF7DF8);
     background-size:cover;
     color: white;
