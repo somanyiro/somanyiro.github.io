@@ -9,7 +9,7 @@
 }
 
 body{
-    background-image: url("resources/texture_08.png");
+    background-image: url("resources/texture_13.png");
     background-size: 300px;
 }
 
@@ -55,6 +55,7 @@ h1{
     align-content: center;
     justify-content: space-evenly;
     width: 100%;
+    background-image: url("resources/gizmo.png");
     background-image: linear-gradient(to right, #7D84FF, #FF7DF8);
     background-size:cover;
     color: white;
@@ -119,7 +120,8 @@ figcaption{
 
 .content{
     width: 80vw;
-    background-color: #111111;
+    /* background-color: #111111; */
+    background-image: linear-gradient(#111111, #2f315f, #41203f, #111111);
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -140,6 +142,7 @@ figcaption{
 h2{
     text-align: center;
     margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .cv article{
