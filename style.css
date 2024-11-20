@@ -118,6 +118,16 @@ figcaption{
     color: gray;
 }
 
+.divider{
+    display: flex;
+    flex-direction: row;
+}
+
+.half-width{
+    display: block;
+    width: 50%;
+}
+
 .content{
     width: 80vw;
     /* background-color: #111111; */
