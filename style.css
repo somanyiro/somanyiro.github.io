@@ -74,6 +74,8 @@ h1{
     transform: scaleX(-1);
     align-self: flex-end;
     margin-top: 10px;
+    margin-left: -150px;
+    z-index: -1;
 }
 
 .beginning h1{
@@ -225,7 +227,6 @@ h2{
     }
     .beginning h1 {
         margin-left: 10px;
-        
     }
     .content {
         width: 100vw;
