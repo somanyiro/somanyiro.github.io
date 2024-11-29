@@ -53,6 +53,7 @@ h1{
 .beginning{
     display: flex;
     align-content: center;
+    justify-content: space-between;
     
     width: 100%;
     /* background-image: url("resources/gizmo.png"); */
@@ -76,7 +77,7 @@ h1{
 }
 
 .beginning h1{
-    margin: 50px 0 10px 0;
+    margin: 50px 0 10px 200px;
 }
 
 .aboutme{
@@ -216,10 +217,10 @@ h2{
 .skills nav a img{
     width: 100%;
 }
-
+/*
 @media screen and (min-width: 1770px) {
     .beginning {
-        justify-content: space-evenly;
+        justify-content: space-between;
     }
 }
 
@@ -228,4 +229,4 @@ h2{
         justify-content: center;
         gap: 20px;
     }
-}
+}*/
