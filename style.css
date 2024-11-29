@@ -54,7 +54,7 @@ h1{
     display: flex;
     align-content: center;
     justify-content: space-between;
-    
+
     width: 100%;
     /* background-image: url("resources/gizmo.png"); */
     background-image: linear-gradient(to right, #7D84FF, #FF7DF8);
@@ -77,7 +77,8 @@ h1{
 }
 
 .beginning h1{
-    margin: 50px 0 10px 200px;
+    margin: 50px -150px 10px 200px;
+    text-wrap: nowrap;
 }
 
 .aboutme{
@@ -217,16 +218,38 @@ h2{
 .skills nav a img{
     width: 100%;
 }
-/*
-@media screen and (min-width: 1770px) {
-    .beginning {
-        justify-content: space-between;
+
+@media screen and (max-width: 1000px) {
+    aside {
+        visibility: hidden;
+    }
+    .beginning h1 {
+        margin-left: 10px;
+        
+    }
+    .content {
+        width: 100vw;
+    }
+    .beginning img {
+        height: 400px;
+    }
+    .aboutme {
+        min-width: 250px;
+        min-height: 250px;
+        align-self: flex-end;
+        margin-bottom: 6vw;
+    }
+    article {
+        flex-wrap: wrap;
+        padding-bottom: 30px;
+        gap: 10px;
+    }
+    article figure {
+        order: -1;
+        width: 100%;
+        flex: 0 0 100%;
+    }
+    .text {
+        width: 100%;
     }
 }
-
-@media screen and (max-width: 1770px) {
-    .beginning {
-        justify-content: center;
-        gap: 20px;
-    }
-}*/
