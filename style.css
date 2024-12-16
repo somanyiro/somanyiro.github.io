@@ -15,11 +15,11 @@ body{
 }
 
 header{
-    /*background-color: black;*/
+    background-color: black;
     position: fixed;
     width: 100vw;
     z-index: 1;
-    background-color: linear-gradient(to right, #7D84FF, #FF7DF8);;
+    /*background-color: linear-gradient(to right, #7D84FF, #FF7DF8);;*/
 }
 
 header nav a{
