@@ -10,12 +10,12 @@
 	<link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header>
+    <header class="progressBar">
         <nav>
             <a href="#home">soma nyiro</a>
         </nav>
     </header>
-    <aside>
+    <aside class="progressBar">
         <nav>
             <ul>
                 <li>
@@ -342,4 +342,24 @@
 
         </section>
     </main>
+
+    <script>
+        // JavaScript to control progress bar
+        document.addEventListener("scroll", function () {
+            // Get the scrollable height of the page
+            const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+            const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+
+            // Calculate the percentage scrolled
+            const scrollPercent = (scrollTop / scrollHeight) * 100;
+            
+            const progressBars = document.querySelectorAll(".progressBar");
+
+            // Update the background gradient for each progress bar
+            progressBars.forEach((progressBar) => {
+                progressBar.style.background = `linear-gradient(135deg, #7D84FF, #FF7DF8 ${scrollPercent}%, black ${scrollPercent}%)`;
+            });
+        });
+
+    </script>
 </body>
