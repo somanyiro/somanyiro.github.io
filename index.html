@@ -68,24 +68,25 @@
                 <section class="filters">
                     <button class="filter pressed" data-tag="jam">Game Jams</button>
                     <button class="filter pressed" data-tag="work">Professional Work</button>
-                    <button class="filter" data-tag="uni">University Projects</button>
+                    <button class="filter pressed" data-tag="uni">University Projects</button>
+                    <button class="filter pressed" data-tag="personal">Personal Projects</button>
                 </section>
 
-                <article>
+                <article class="portfolio-piece" data-tag="uni">
+                    <section class="text">
+                        <p>
+                            As a project for university, I made a short cinematic trailer with a team of fellow students, utilizing motion capture to create the animations. I learned a lot about the technology and the work-flow surrounding it.
+                        </p>
+                    </section>
                     <figure>
                         <video src="resources/motion_capture.mp4" autoplay muted loop loading="lazy"></video>
                         <figcaption>
                             Cinematic made with motion capture
                         </figcaption>
                     </figure>
-                    <section class="text">
-                        <p>
-                            As a project for university, I made a short cinematic trailer with a team of fellow students, utilizing motion capture to create the animations. I learned a lot about the technology and the work-flow surrounding it.
-                        </p>
-                    </section>
                 </article>
 
-                <article>
+                <article class="portfolio-piece" data-tag="work">
                     <section class="text">
                         <p>
                             As part of a project, I was tasked with improving on the work-flow of motion capture suits. I created a <a href="https://github.com/somanyiro/AnimationLooper">Blender plug-in</a> for modifying motion capture data to create smoothly looping animations. This drastically reduces the amount of time artist need to spend on animation cleanup.
@@ -102,7 +103,12 @@
                     </figure>
                 </article>
 
-                <article>
+                <article class="portfolio-piece" data-tag="jam">
+                    <section class="text">
+                        <p>
+                            With a team of friends I participated in a game jam and created a communication based co-op exploration game. It was inspired by <a href="https://keeptalkinggame.com/">Keep Talking and Nobody Explodes</a> and was very successful in the jam.
+                        </p>
+                    </section>
                     <figure>
                         <a href="https://gnimacz.itch.io/the-sorrow-kings-castle">
                             <video src="resources/castle.mp4" autoplay muted loop loading="lazy"></video>
@@ -111,14 +117,9 @@
                             Communication based coop game
                         </figcaption>
                     </figure>
-                    <section class="text">
-                        <p>
-                            With a team of friends I participated in a game jam and created a communication based co-op exploration game. It was inspired by <a href="https://keeptalkinggame.com/">Keep Talking and Nobody Explodes</a> and was very successful in the jam.
-                        </p>
-                    </section>
                 </article>
 
-                <article>
+                <article class="portfolio-piece" data-tag="work">
                     <section class="text">
                         <p>
                             Recently I had the great oportunity to intern at <a href="https://vrstorm.hu/en/home-page/">VR Storm Studio</a> and work with them to develop DFUSE, a competetive tactical FPS. I was able to learn a lot about commercial development and large scale project structures.
@@ -132,21 +133,21 @@
                     </figure>
                 </article>
 
-                <article>
+                <article class="portfolio-piece" data-tag="work">
+                    <section class="text">
+                        <p>
+                            During my time at VR Storm I was responsible for making the weapon movement system for DFUSE. I was able to make a very competent and modular system that allowed us to configure complex movements for all scenarios.
+                        </p>
+                    </section>
                     <figure>
                         <video src="resources/weapon_sway.mp4" autoplay muted loop loading="lazy"></video>
                         <figcaption>
                             Weapon sway system
                         </figcaption>
                     </figure>
-                    <section class="text">
-                        <p>
-                            During my time at VR Storm I was responsible for making the weapon movement system for DFUSE. I was able to make a very competent and modular system that allowed us to configure complex movements for all scenarios.
-                        </p>
-                    </section>
                 </article>
 
-                <article>
+                <article class="portfolio-piece" data-tag="personal">
                     <section class="text">
                         <p>
                             As a personal project, I decided to write a Minecraft-like voxel rederer in C# with Raylib. It proved to be a very fun project that I still work on from time to time. There are still many optimizations to do but it is in a usable state.
@@ -160,21 +161,21 @@
                     </figure>
                 </article>
 
-                <article>
+                <article class="portfolio-piece" data-tag="jam">
+                    <section class="text">
+                        <p>
+                            I took part in Sebastian Lague’s <a href="https://github.com/SebLague/Chess-Challenge" target="_blank">chess coding challenge</a> where I had to write a chess bot with as few lines of code as possible. This project taught me a lot about code optimization and was very enjoyable in general.
+                        </p>
+                    </section>
                     <figure>
                         <video src="resources/chess_bot.mp4" autoplay muted loop loading="lazy"></video>
                         <figcaption>
                             Chess bot
                         </figcaption>
                     </figure>
-                    <section class="text">
-                        <p>
-                            I took part in Sebastian Lague’s <a href="https://github.com/SebLague/Chess-Challenge" target="_blank">chess coding challenge</a> where I had to write a chess bot with as few lines of code as possible. This project taught me a lot about code optimization and was very enjoyable in general.
-                        </p>
-                    </section>
                 </article>
 
-                <article>
+                <article class="portfolio-piece" data-tag="personal">
                     <section class="text">
                         <p>
                             In my quest to create a multiplayer FPS game, I tackled the world of networking. I taught myself the ins and outs of multiplayer game architecture, learning about stuff like client-server interactions, synchronization, and managing delays. This learning curve helped me bring my game to life in an online environment and gave me a solid understanding of what makes multiplayer games tick.
@@ -188,21 +189,21 @@
                     </figure>
                 </article>
 
-                <article>
+                <article class="portfolio-piece" data-tag="uni">
+                    <section class="text">
+                        <p>
+                            At university, I had the exciting opportunity to design and decorate a level for a multiplayer FPS game. I took a hands-on approach, constantly testing and gathering feedback from players to improve the level iteratively.
+                        </p>
+                    </section>
                     <figure>
                         <img src="resources/level_design_process.gif" loading="lazy">
                         <figcaption>
                             Level Design Process
                         </figcaption>
                     </figure>
-                    <section class="text">
-                        <p>
-                            At university, I had the exciting opportunity to design and decorate a level for a multiplayer FPS game. I took a hands-on approach, constantly testing and gathering feedback from players to improve the level iteratively.
-                        </p>
-                    </section>
                 </article>
 
-                <article>
+                <article class="portfolio-piece" data-tag="personal">
                     <section class="text">
                         <p>
                             To expand my knowledge of game development and explore my artistic side, I decided to teach myself how to write shaders. As a result, I created a cool grass shader that not only interacted with the environment but also had a unique stylized look.
@@ -216,21 +217,21 @@
                     </figure>
                 </article>
 
-                <article>
+                <article class="portfolio-piece" data-tag="personal">
+                    <section class="text">
+                        <p>
+                            Not stopping at the grass shader, I also dabbled in creating a stylized water shader. It was a fun experiment that allowed me to dive deeper into the world of visual effects and push my shader skills even further.
+                        </p>
+                    </section>
                     <figure>
                         <video src="resources/water_shader.mp4" autoplay muted loop loading="lazy"></video>
                         <figcaption>
                             Stylized water shader
                         </figcaption>
                     </figure>
-                    <section class="text">
-                        <p>
-                            Not stopping at the grass shader, I also dabbled in creating a stylized water shader. It was a fun experiment that allowed me to dive deeper into the world of visual effects and push my shader skills even further.
-                        </p>
-                    </section>
                 </article>
 
-                <article>
+                <article class="portfolio-piece" data-tag="personal">
                     <section class="text">
                         <p>
                             To challenge myself and gain experience in plugin development for the Godot game engine, I developed a plugin that made it super easy to place and render millions of meshes efficiently. Here I am using it in combination with my grass shader.
@@ -244,21 +245,21 @@
                     </figure>
                 </article>
                 
-                <article>
+                <article class="portfolio-piece" data-tag="uni">
+                    <section class="text">
+                        <p>
+                            As part of a university assignment, I explored the basics of animation in Blender and created a walk cycle. It was a great opportunity for me to learn animation techniques and put my game development skills to the test by developing a character controller to make the animation come to life.
+                        </p>
+                    </section>
                     <figure>
                         <img src="resources/walk_animation.gif" loading="lazy">
                         <figcaption>
                             Walk animation with blending
                         </figcaption>
                     </figure>
-                    <section class="text">
-                        <p>
-                            As part of a university assignment, I explored the basics of animation in Blender and created a walk cycle. It was a great opportunity for me to learn animation techniques and put my game development skills to the test by developing a character controller to make the animation come to life.
-                        </p>
-                    </section>
                 </article>
 
-                <article>
+                <article class="portfolio-piece" data-tag="personal">
                     <section class="text">
                         <p>
                             In order to combine my web development skills and passion for game development, I decided to deploy one of my projects online using the React framework. It was an exciting way for me to learn how to develop games for the web while showcasing my web development abilities.
@@ -274,7 +275,12 @@
                     </figure>
                 </article>
 
-                <article>
+                <article class="portfolio-piece" data-tag="jam">
+                    <section class="text">
+                        <p>
+                            In a challenging but rewarding university project, I took on the role of project lead within a team of seven talented individuals. Together, we created an amazing game in just two weeks, pooling our creative ideas and technical skills to deliver an immersive experience for players.
+                        </p>
+                    </section>
                     <figure>
                         <a href="https://gnimacz.itch.io/spider-collider">
                             <video src="resources/spider_collider.mp4" autoplay muted loop loading="lazy"></video>
@@ -283,11 +289,6 @@
                             Spider Collider
                         </figcaption>
                     </figure>
-                    <section class="text">
-                        <p>
-                            In a challenging but rewarding university project, I took on the role of project lead within a team of seven talented individuals. Together, we created an amazing game in just two weeks, pooling our creative ideas and technical skills to deliver an immersive experience for players.
-                        </p>
-                    </section>
                 </article>
 
             </section>
@@ -363,6 +364,8 @@
     </main>
 
     <script>
+        reorderPortfolio();
+
         // JavaScript to control progress bar
         document.addEventListener("scroll", function () {
             // Get the scrollable height of the page
@@ -382,13 +385,30 @@
 
         //filter buttons
         const filterButtons = document.querySelectorAll(".filter");
+        const articles = document.querySelectorAll(".portfolio-piece");
 
         filterButtons.forEach((button) => {
             button.addEventListener("click", () => {
                 // Toggle button active class
-                button.classList.toggle('pressed');
+                var t = button.classList.toggle("pressed");
+
+                articles.forEach(article => {
+                    if (article.getAttribute("data-tag") == button.getAttribute("data-tag")){
+                        article.classList.toggle("hidden", !t);
+                    }
+                });
+
+                reorderPortfolio();
             })
         });
+
+        function reorderPortfolio() {
+            var visibleArticles = document.querySelectorAll(".portfolio-piece:not(.hidden)");
+
+            for (let index = 0; index < visibleArticles.length; index++) {
+                visibleArticles[index].classList.toggle("reverse", index % 2 == 0);
+            }
+        }
 
     </script>
 </body>

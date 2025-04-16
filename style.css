@@ -179,7 +179,6 @@ figcaption{
     width: 30%;
 }
 
-
 #bio_text{
     display: flex;
     justify-content: center;
@@ -277,4 +276,12 @@ figcaption{
 .pressed{
     background-color: #FF7DF8;
     border-color: transparent;
+}
+
+.hidden{
+    display: none;
+}
+
+.reverse{
+    flex-direction: row-reverse;
 }
