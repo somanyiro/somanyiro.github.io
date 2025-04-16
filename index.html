@@ -65,6 +65,12 @@
 
                 <h2>PORTFOLIO</h2>
 
+                <section class="filters">
+                    <button class="filter pressed" data-tag="jam">Game Jams</button>
+                    <button class="filter pressed" data-tag="work">Professional Work</button>
+                    <button class="filter" data-tag="uni">University Projects</button>
+                </section>
+
                 <article>
                     <figure>
                         <video src="resources/motion_capture.mp4" autoplay muted loop loading="lazy"></video>
@@ -372,6 +378,16 @@
             progressBars.forEach((progressBar) => {
                 progressBar.style.background = `linear-gradient(135deg, #7D84FF, #FF7DF8 ${scrollPercent}%, black ${scrollPercent}%)`;
             });
+        });
+
+        //filter buttons
+        const filterButtons = document.querySelectorAll(".filter");
+
+        filterButtons.forEach((button) => {
+            button.addEventListener("click", () => {
+                // Toggle button active class
+                button.classList.toggle('pressed');
+            })
         });
 
     </script>
