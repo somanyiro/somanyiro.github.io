@@ -389,6 +389,7 @@
 
     <script>
         reorderPortfolio();
+        //moveBackground();
 
         // JavaScript to control progress bar
         document.addEventListener("scroll", function () {
@@ -405,6 +406,14 @@
             progressBars.forEach((progressBar) => {
                 progressBar.style.background = `linear-gradient(135deg, #7D84FF, #FF7DF8 ${scrollPercent}%, black ${scrollPercent}%)`;
             });
+        });
+
+        //background movement
+        document.addEventListener("mousemove", function (event) {
+            const x = -event.clientX / 50;
+            const y = -event.clientY / 50;
+
+            document.body.style.backgroundPosition = `${x}px ${y}px`;
         });
 
         //filter buttons
