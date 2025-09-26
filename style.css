@@ -164,6 +164,23 @@ figcaption{
     width: 50%;
 }
 
+.portfolio-item-links {
+    margin: 10px;
+    text-align: center;
+    background-color: #5555559d;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0px 0px 20px -5px black;
+}
+
+.portfolio-item-links a {
+    line-height: 40px;
+    text-decoration: none;
+    padding: 5px;
+    background-color: #7D84FF;
+    border-radius: 5px;
+}
+
 .cv article{
     display: flex;
     margin: 10px;
@@ -272,11 +289,11 @@ figcaption{
     border-radius: 40px;
     padding: 5px;
     background-color: transparent;
-    border-color: #FF7DF8;
+    border-color: #7D84FF;
 }
 
 .pressed{
-    background-color: #FF7DF8;
+    background-color: #7D84FF;
     border-color: transparent;
 }
 
