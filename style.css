@@ -210,6 +210,12 @@ figcaption{
     width: 30%;
 }
 
+.biography-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #bio_text{
     display: flex;
     justify-content: center;
