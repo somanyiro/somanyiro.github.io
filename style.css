@@ -80,7 +80,7 @@ h2{
 }
 
 .beginning img{
-    height: 600px;
+    height: 650px;
     transform: scaleX(-1);
     align-self: flex-end;
     margin-top: 10px;
