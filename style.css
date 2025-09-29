@@ -1,6 +1,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
+:root{
+    --gradient-beginning: #4ebef1;
+    --gradient-end: #5ec55b;
+    --gradient-beginning-dark: #10242e;
+    --gradient-end-dark: #0e1d0e;
+    --textbox-background: #5555559d;
+    --button-background: #3d67f0;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -28,6 +37,7 @@ header nav a{
     text-decoration: none;
     line-height: 7vh;
     margin-left: 1vw;
+    text-shadow: 0px 0px 5px black;
 }
 
 aside{
@@ -37,6 +47,7 @@ aside{
     top: 8vh;
     z-index: 1;
     border-radius: 10px;
+    text-shadow: 0px 0px 5px black;
 }
 
 aside *{
@@ -67,7 +78,7 @@ h2{
 
     width: 100%;
     /* background-image: url("resources/gizmo.png"); */
-    background-image: linear-gradient(to right, #7D84FF, #FF7DF8);
+    background-image: linear-gradient(to right, var(--gradient-beginning), var(--gradient-end));
     background-size:cover;
     color: white;
     clip-path: polygon(
@@ -95,9 +106,10 @@ h2{
 
 .aboutme{
     align-self: center;
-    background-color: #5555559d;
+    background-color: var(--textbox-background);
     border-radius: 10px;
     padding: 15px;
+    box-shadow: 0px 0px 20px -5px black;
 }
 
 main{
@@ -145,7 +157,7 @@ figcaption{
 .content{
     width: 80vw;
     /* background-color: #111111; */
-    background-image: linear-gradient(#111111, #2f315f, #41203f, #111111);
+    background-image: linear-gradient(#111111, var(--gradient-beginning-dark), var(--gradient-end-dark), #111111);
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -167,7 +179,7 @@ figcaption{
 .portfolio-item-links {
     margin: 10px;
     text-align: center;
-    background-color: #5555559d;
+    background-color: var(--textbox-background);
     border-radius: 10px;
     padding: 15px;
     box-shadow: 0px 0px 20px -5px black;
@@ -177,7 +189,7 @@ figcaption{
     line-height: 40px;
     text-decoration: none;
     padding: 5px;
-    background-color: #7D84FF;
+    background-color: var(--button-background);
     border-radius: 5px;
 }
 
@@ -289,11 +301,11 @@ figcaption{
     border-radius: 40px;
     padding: 5px;
     background-color: transparent;
-    border-color: #7D84FF;
+    border-color: var(--button-background);
 }
 
 .pressed{
-    background-color: #7D84FF;
+    background-color: var(--button-background);
     border-color: transparent;
 }
 
