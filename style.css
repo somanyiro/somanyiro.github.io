@@ -201,13 +201,21 @@ figcaption{
 
 .aboutme p{
     text-align: center;
-    
 }
 
 #aboutme{
     display: flex;
     justify-content: center;
     width: 30%;
+}
+
+.backup_aboutme{
+    display: none;
+}
+
+.backup_aboutme p{
+    margin: 10px;
+    text-align: center;
 }
 
 .biography-container{
@@ -273,11 +281,11 @@ figcaption{
     .beginning img {
         height: 400px;
     }
-    .aboutme {
-        min-width: 250px;
-        min-height: 250px;
-        align-self: flex-end;
-        margin-bottom: 6vw;
+    #aboutme{
+        display: none;
+    }
+    .backup_aboutme{
+        display: block;
     }
     article {
         flex-wrap: wrap;
