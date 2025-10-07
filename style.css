@@ -309,6 +309,7 @@ figcaption{
     justify-content: center;
     gap: 20px;
     margin-bottom: 20px;
+    flex-wrap: wrap;
 }
 
 .filter{
@@ -316,6 +317,19 @@ figcaption{
     padding: 5px;
     background-color: transparent;
     border-color: var(--button-background);
+    display: flex;
+    align-items: center;
+}
+
+.pressed .toggle-icon{
+    background-image: url("resources/check.png")
+}
+
+.toggle-icon{
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    background-image: url("resources/cross.png");
 }
 
 .pressed{
