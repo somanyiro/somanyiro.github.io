@@ -10,6 +10,10 @@
     --button-background: #3d67f0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 *{
     margin: 0;
     padding: 0;
