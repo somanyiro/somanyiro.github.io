@@ -308,6 +308,9 @@ figcaption{
     .text {
         width: 100%;
     }
+    .code-example{
+        flex-direction: column;
+    }
 }
 
 /*filtering buttons*/
@@ -358,12 +361,17 @@ figcaption{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5vw;
+    gap: 3%;
 
     background-color: var(--textbox-background);
     border-radius: 10px;
     padding: 15px;
     box-shadow: 0px 0px 20px -5px black;
+}
+
+.code-example h3{
+    width: 15%;
+    text-align: center;
 }
 
 .code-example p{
@@ -378,6 +386,7 @@ figcaption{
     padding: 5px;
     background-color: var(--button-background);
     border-radius: 5px;
+    text-wrap: nowrap;
 }
 
 .bouncing{
